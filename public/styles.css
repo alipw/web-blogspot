@@ -1,0 +1,122 @@
+#main-div {
+	font-family: "Libre Baskerville", serif;
+	padding-top: 100px;
+}
+
+#navbar {
+	background-color: #0b6abd;
+	color: white;
+}
+
+.InlineMath {
+	font-size: 15pt;
+	display: inline;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.title {
+	font-size: 22pt;
+}
+
+@media (min-width: 0px) {
+	#navbar {
+		padding-left: 20px;
+		padding-right: 50px;
+	}
+	.main-content {
+		padding-right: 10px;
+		font-size: 9pt;
+	}
+	.InlineMath {
+		font-size: 10pt;
+		display: inline;
+		margin-left: 2px;
+		margin-right: 2px;
+	}
+	.padding {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.title {
+		font-size: 22pt;
+	}
+}
+
+@media (min-width: 400px) {
+	#navbar {
+		padding-left: 20px;
+		padding-right: 50px;
+	}
+	.padding {
+		padding-left: 20px;
+		padding-right: 50px;
+	}
+	.InlineMath {
+		font-size: 12pt;
+		display: inline;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	.main-content {
+		padding-right: 10px;
+		font-size: 13pt;
+	}
+	.title {
+		font-size: 26pt;
+	}
+}
+
+@media (min-width: 900px) {
+	#navbar {
+		padding-left: 10VW;
+		padding-right: 30vw;
+	}
+	.padding {
+		padding-left: 10VW;
+		padding-right: 30vw;
+	}
+	.InlineMath {
+		font-size: 12pt;
+		display: inline;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	.main-content {
+		padding-right: 10px;
+		font-size: 13pt;
+	}
+	.title {
+		font-size: 26pt;
+	}
+}
+
+
+
+@media (min-width: 1366px) {
+	#navbar {
+		padding-left: 15vw;
+		padding-right: 45vw;
+	}
+	.padding {
+		padding-left: 15vw;
+		padding-right: 45vw;
+	}
+	.main-content {
+		padding-right: 10px;
+		font-size: 13pt;
+	}
+	.InlineMath {
+		font-size: 15pt;
+		display: inline;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	.title {
+		font-size: 30pt;
+	}
+}
+
+.subtitle {
+	color: #636363;
+}
